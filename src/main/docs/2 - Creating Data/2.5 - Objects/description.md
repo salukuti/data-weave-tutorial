@@ -8,24 +8,45 @@ Objects are a series of key-value mappings, where the value can be of any type:
 %dw 2.0
 output json
 ---
+%dw 2.0
+output json
+---
 {
-  one: [1],
-  two: "2",
-  three: {
-      A: "AAA"
-  }
+"ID_PROJECT_LOCATION" : "344957",
+"2132": null,
+"2129": null,
+"2442": null,
+"2131": null,
+"2126": "Yes"
 }
+
 ```
 #### Output:
-```json
 {
-  "one": [1],
-  "two": "2",
-  "three": {
-    "A": "AAA"
-  }
+"id_project_location": "344957",
+"data": [
+{
+"id_general_detail": "2132",
+"value": null
+},
+{
+"id_general_detail": "2129",
+"value": null
+},
+{
+"id_general_detail": "2442",
+"value": null
+},
+{
+"id_general_detail": "2131",
+"value": null
+},
+{
+"id_general_detail": "2126",
+"value": "Yes"
 }
-```
+]
+}
 ---
 
 DataWeave allows repeated keys on Objects as well. This may seem odd, but the support for this makes sense when we consider XML:
