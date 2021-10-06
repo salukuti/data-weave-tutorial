@@ -6,46 +6,41 @@ Use what you know about selectors to get the output specified below from this in
 #### Input:
 ```json
 {
-  "id": 1,
-  "id": 11,
-  "secondLevel": {
-    "id": 2,
-    "id": 22,
-    "thirdLevel": {
-      "id": 3,
-      "id": 33
-    }
-  }
+"ID_PROJECT_LOCATION" : "344957",
+"2132": null,
+"2129": null,
+"2442": null,
+"2131": null,
+"2126": "Yes"
 }
+
 ```
 #### Output:
 ```json
 {
-  "descendant": [
-    1,
-    2,
-    3
-  ],
-  "multivalue": [
-    1,
-    11
-  ],
-  "multivalueSecondLevel": [
-    2,
-    22
-  ],
-  "multivalueThirdLevel": [
-    3,
-    33
-  ],
-  "allTheIds": [
-    1,
-    11,
-    2,
-    22,
-    3,
-    33
-  ]
+"id_project_location": "344957",
+"data": [
+{
+"id_general_detail": "2132",
+"value": null
+},
+{
+"id_general_detail": "2129",
+"value": null
+},
+{
+"id_general_detail": "2442",
+"value": null
+},
+{
+"id_general_detail": "2131",
+"value": null
+},
+{
+"id_general_detail": "2126",
+"value": "Yes"
+}
+]
 }
 ```
 
