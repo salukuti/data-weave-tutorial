@@ -7,48 +7,40 @@ As an example, you can see how a `datetime` value is converted to a `LocalDateTi
 ---
 #### Input
 ```
-[
-  {
-    "datetime": "2020-01-01T08:00:00",
-    "event": "Breakfast @ Cafe",
-    "organizer": "Phoebe"
-  },
-  {
-    "datetime": "2020-01-02T18:00:00",
-    "event": "Study for cert exam",
-    "organizer": "Ross"
-  },
-  {
-    "datetime": "2020-01-04T16:00:00",
-    "event": "Drinks w/ friends",
-    "organizer": "Monica"
-  },
-  {
-    "datetime": "2020-01-08T08:00:00",
-    "event": "Develop mule application",
-    "organizer": "Ross"
-  },
-  {
-    "datetime": "2020-01-05T08:00:00",
-    "event": "Football game",
-    "organizer": "Joey"
-  }
-]
+{
+"ID_PROJECT_LOCATION" : "344957",
+"2132": null,
+"2129": null,
+"2442": null,
+"2131": null,
+"2126": "Yes"
+}
 ```
 #### Output
 ```
-[
-  {
-    "datetime": "2020-01-02T18:00:00",
-    "event": "Study for cert exam",
-    "organizer": "Ross",
-    "day": "thu"
-  },
-  {
-    "datetime": "2020-01-08T08:00:00",
-    "event": "Develop mule application",
-    "organizer": "Ross",
-    "day": "wed"
-  }
+{
+"id_project_location": "344957",
+"data": [
+{
+"id_general_detail": "2132",
+"value": null
+},
+{
+"id_general_detail": "2129",
+"value": null
+},
+{
+"id_general_detail": "2442",
+"value": null
+},
+{
+"id_general_detail": "2131",
+"value": null
+},
+{
+"id_general_detail": "2126",
+"value": "Yes"
+}
 ]
+}
 ```
